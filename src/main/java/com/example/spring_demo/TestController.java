@@ -14,8 +14,8 @@ public class TestController {
     }
 
 
-    // @GetMapping("/message")
-    // public String getMessage() {
-    //    return "Hello AWS 2!";
-    // }
+    @GetMapping("/message")
+    public String getMessage() {
+       return "Hello AWS 2!";
+    }
 }
