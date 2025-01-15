@@ -16,6 +16,6 @@ public class TestController {
 
     @GetMapping("/message")
     public String getMessage() {
-       return "Hello AWS !";
+       return "Hello AWS From another Page!";
     }
 }
