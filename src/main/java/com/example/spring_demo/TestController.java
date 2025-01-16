@@ -18,4 +18,8 @@ public class TestController {
     public String getMessage() {
        return "Hello AWS From another Page!";
     }
+    @GetMapping("/message2")
+    public String getMessage2() {
+       return "Hello AWS From another Page Again!";
+    }
 }
